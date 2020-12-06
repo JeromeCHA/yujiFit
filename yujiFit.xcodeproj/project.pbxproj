@@ -12,15 +12,24 @@
 		BD1D1A0725616611005C299C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A0625616611005C299C /* AppDelegate.swift */; };
 		BD1D1A0E25616611005C299C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1D1A0C25616611005C299C /* Main.storyboard */; };
 		BD1D1A1025616612005C299C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1D1A0F25616612005C299C /* Assets.xcassets */; };
-		BD1D1A1325616612005C299C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1D1A1125616612005C299C /* LaunchScreen.storyboard */; };
 		BD1D1A1E25616612005C299C /* yujiFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A1D25616612005C299C /* yujiFitTests.swift */; };
 		BD1D1A3525616FD9005C299C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3225616FD9005C299C /* HomeViewController.swift */; };
 		BD1D1A3625616FD9005C299C /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3325616FD9005C299C /* HomeRouter.swift */; };
 		BD1D1A3725616FD9005C299C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3425616FD9005C299C /* HomePresenter.swift */; };
-		BD1D1A3A25617586005C299C /* TrainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3925617586005C299C /* TrainRouter.swift */; };
-		BD1D1A3C25617590005C299C /* TrainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3B25617590005C299C /* TrainPresenter.swift */; };
-		BD1D1A3E2561759E005C299C /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3D2561759E005C299C /* TrainViewController.swift */; };
+		BD1D1A3A25617586005C299C /* TrainingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3925617586005C299C /* TrainingRouter.swift */; };
+		BD1D1A3C25617590005C299C /* TrainingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3B25617590005C299C /* TrainingPresenter.swift */; };
+		BD1D1A3E2561759E005C299C /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3D2561759E005C299C /* TrainingViewController.swift */; };
 		BD1D1A40256179BD005C299C /* YFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D1A3F256179BD005C299C /* YFTabBarController.swift */; };
+		BD2E30432573CEBF004D2D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2E30422573CEBF004D2D9A /* LaunchScreen.storyboard */; };
+		BD2E304A2573D3A9004D2D9A /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E30492573D3A9004D2D9A /* Training.swift */; };
+		BD2E30502573D496004D2D9A /* Exercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E304F2573D496004D2D9A /* Exercice.swift */; };
+		BD2E30542573D733004D2D9A /* SingleValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E30532573D733004D2D9A /* SingleValue.swift */; };
+		BD2E30602573E0B8004D2D9A /* TrainingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E305F2573E0B8004D2D9A /* TrainingInteractor.swift */; };
+		BD3ABE56257D151000FAE169 /* AddTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3ABE55257D151000FAE169 /* AddTrainingViewController.swift */; };
+		BD3ABE5B257D15DC00FAE169 /* TrainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3ABE5A257D15DC00FAE169 /* TrainingCell.swift */; };
+		BD3ABE61257D160B00FAE169 /* TrainingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3ABE60257D160B00FAE169 /* TrainingCell.xib */; };
+		BD3ABE68257D1CD300FAE169 /* AddTrainingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3ABE67257D1CD200FAE169 /* AddTrainingPresenter.swift */; };
+		BD3ABE6C257D1DA400FAE169 /* AddTrainingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3ABE6B257D1DA400FAE169 /* AddTrainingRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +51,6 @@
 		BD1D1A0625616611005C299C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1D1A0D25616611005C299C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD1D1A0F25616612005C299C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD1D1A1225616612005C299C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1D1A1425616612005C299C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1D1A1925616612005C299C /* yujiFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yujiFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1D1A1D25616612005C299C /* yujiFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yujiFitTests.swift; sourceTree = "<group>"; };
@@ -50,10 +58,20 @@
 		BD1D1A3225616FD9005C299C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD1D1A3325616FD9005C299C /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		BD1D1A3425616FD9005C299C /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		BD1D1A3925617586005C299C /* TrainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainRouter.swift; sourceTree = "<group>"; };
-		BD1D1A3B25617590005C299C /* TrainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainPresenter.swift; sourceTree = "<group>"; };
-		BD1D1A3D2561759E005C299C /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		BD1D1A3925617586005C299C /* TrainingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRouter.swift; sourceTree = "<group>"; };
+		BD1D1A3B25617590005C299C /* TrainingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPresenter.swift; sourceTree = "<group>"; };
+		BD1D1A3D2561759E005C299C /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		BD1D1A3F256179BD005C299C /* YFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabBarController.swift; sourceTree = "<group>"; };
+		BD2E30422573CEBF004D2D9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2E30492573D3A9004D2D9A /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		BD2E304F2573D496004D2D9A /* Exercice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice.swift; sourceTree = "<group>"; };
+		BD2E30532573D733004D2D9A /* SingleValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleValue.swift; sourceTree = "<group>"; };
+		BD2E305F2573E0B8004D2D9A /* TrainingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingInteractor.swift; sourceTree = "<group>"; };
+		BD3ABE55257D151000FAE169 /* AddTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainingViewController.swift; sourceTree = "<group>"; };
+		BD3ABE5A257D15DC00FAE169 /* TrainingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCell.swift; sourceTree = "<group>"; };
+		BD3ABE60257D160B00FAE169 /* TrainingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingCell.xib; sourceTree = "<group>"; };
+		BD3ABE67257D1CD200FAE169 /* AddTrainingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainingPresenter.swift; sourceTree = "<group>"; };
+		BD3ABE6B257D1DA400FAE169 /* AddTrainingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainingRouter.swift; sourceTree = "<group>"; };
 		CB82815D4825CEE2B227F495 /* Pods-yujiFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yujiFit.debug.xcconfig"; path = "Target Support Files/Pods-yujiFit/Pods-yujiFit.debug.xcconfig"; sourceTree = "<group>"; };
 		EC60862279F619559A14DEF3 /* Pods_yujiFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yujiFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,14 +139,15 @@
 		BD1D1A0525616611005C299C /* yujiFit */ = {
 			isa = PBXGroup;
 			children = (
-				BD1D1A3825617506005C299C /* Train */,
+				BD3ABE64257D1C4F00FAE169 /* AddTraining */,
+				BD1D1A3825617506005C299C /* Training */,
 				BD1D1A3125616FD9005C299C /* Home */,
 				BD1D1A0625616611005C299C /* AppDelegate.swift */,
 				BD1D1A0C25616611005C299C /* Main.storyboard */,
 				BD1D1A0F25616612005C299C /* Assets.xcassets */,
-				BD1D1A1125616612005C299C /* LaunchScreen.storyboard */,
 				BD1D1A1425616612005C299C /* Info.plist */,
 				BD1D1A3F256179BD005C299C /* YFTabBarController.swift */,
+				BD2E30422573CEBF004D2D9A /* LaunchScreen.storyboard */,
 			);
 			path = yujiFit;
 			sourceTree = "<group>";
@@ -152,14 +171,46 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		BD1D1A3825617506005C299C /* Train */ = {
+		BD1D1A3825617506005C299C /* Training */ = {
 			isa = PBXGroup;
 			children = (
-				BD1D1A3925617586005C299C /* TrainRouter.swift */,
-				BD1D1A3B25617590005C299C /* TrainPresenter.swift */,
-				BD1D1A3D2561759E005C299C /* TrainViewController.swift */,
+				BD3ABE59257D15D000FAE169 /* Cell */,
+				BD2E30482573D37F004D2D9A /* Entity */,
+				BD1D1A3925617586005C299C /* TrainingRouter.swift */,
+				BD1D1A3B25617590005C299C /* TrainingPresenter.swift */,
+				BD1D1A3D2561759E005C299C /* TrainingViewController.swift */,
+				BD2E305F2573E0B8004D2D9A /* TrainingInteractor.swift */,
 			);
-			path = Train;
+			path = Training;
+			sourceTree = "<group>";
+		};
+		BD2E30482573D37F004D2D9A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E30492573D3A9004D2D9A /* Training.swift */,
+				BD2E304F2573D496004D2D9A /* Exercice.swift */,
+				BD2E30532573D733004D2D9A /* SingleValue.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BD3ABE59257D15D000FAE169 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD3ABE5A257D15DC00FAE169 /* TrainingCell.swift */,
+				BD3ABE60257D160B00FAE169 /* TrainingCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BD3ABE64257D1C4F00FAE169 /* AddTraining */ = {
+			isa = PBXGroup;
+			children = (
+				BD3ABE55257D151000FAE169 /* AddTrainingViewController.swift */,
+				BD3ABE67257D1CD200FAE169 /* AddTrainingPresenter.swift */,
+				BD3ABE6B257D1DA400FAE169 /* AddTrainingRouter.swift */,
+			);
+			path = AddTraining;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1D1A1325616612005C299C /* LaunchScreen.storyboard in Resources */,
+				BD2E30432573CEBF004D2D9A /* LaunchScreen.storyboard in Resources */,
+				BD3ABE61257D160B00FAE169 /* TrainingCell.xib in Resources */,
 				BD1D1A1025616612005C299C /* Assets.xcassets in Resources */,
 				BD1D1A0E25616611005C299C /* Main.storyboard in Resources */,
 			);
@@ -330,14 +382,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1D1A3A25617586005C299C /* TrainRouter.swift in Sources */,
-				BD1D1A3C25617590005C299C /* TrainPresenter.swift in Sources */,
+				BD1D1A3A25617586005C299C /* TrainingRouter.swift in Sources */,
+				BD2E30502573D496004D2D9A /* Exercice.swift in Sources */,
+				BD3ABE56257D151000FAE169 /* AddTrainingViewController.swift in Sources */,
+				BD1D1A3C25617590005C299C /* TrainingPresenter.swift in Sources */,
 				BD1D1A40256179BD005C299C /* YFTabBarController.swift in Sources */,
+				BD3ABE5B257D15DC00FAE169 /* TrainingCell.swift in Sources */,
 				BD1D1A3625616FD9005C299C /* HomeRouter.swift in Sources */,
 				BD1D1A0725616611005C299C /* AppDelegate.swift in Sources */,
+				BD3ABE6C257D1DA400FAE169 /* AddTrainingRouter.swift in Sources */,
 				BD1D1A3725616FD9005C299C /* HomePresenter.swift in Sources */,
+				BD3ABE68257D1CD300FAE169 /* AddTrainingPresenter.swift in Sources */,
 				BD1D1A3525616FD9005C299C /* HomeViewController.swift in Sources */,
-				BD1D1A3E2561759E005C299C /* TrainViewController.swift in Sources */,
+				BD2E30542573D733004D2D9A /* SingleValue.swift in Sources */,
+				BD2E304A2573D3A9004D2D9A /* Training.swift in Sources */,
+				BD2E30602573E0B8004D2D9A /* TrainingInteractor.swift in Sources */,
+				BD1D1A3E2561759E005C299C /* TrainingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,14 +426,6 @@
 				BD1D1A0D25616611005C299C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BD1D1A1125616612005C299C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD1D1A1225616612005C299C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,7 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKZ4T4EY3Y;
 				INFOPLIST_FILE = yujiFit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,7 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKZ4T4EY3Y;
 				INFOPLIST_FILE = yujiFit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

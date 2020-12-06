@@ -6,6 +6,7 @@ target 'yujiFit' do
   use_frameworks!
 
   pod 'RealmSwift'
+  pod 'SCLAlertView'
 
   target 'yujiFitTests' do
     inherit! :search_paths

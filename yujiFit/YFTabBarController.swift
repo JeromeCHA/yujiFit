@@ -20,10 +20,10 @@ class YFTabBarController: UITabBarController {
         let homeIcon = UIImage(named: "home")
         homeViewController.tabBarItem = UITabBarItem(title: "Home", image: homeIcon, tag: 0)
         
-        let trainViewController = TrainRouter().getInitViewController()
-        let trainIcon = UIImage(named: "trains")
-        trainViewController.tabBarItem = UITabBarItem(title: "Trains", image: trainIcon, tag: 1)
+        let trainingViewController = TrainingRouter().getInitViewController()
+        let trainingIcon = UIImage(named: "training")
+        trainingViewController.tabBarItem = UITabBarItem(title: "Training", image: trainingIcon, tag: 1)
 
-        viewControllers = [homeViewController, trainViewController]
+        viewControllers = [homeViewController, trainingViewController]
     }
 }
